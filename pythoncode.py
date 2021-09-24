@@ -1,0 +1,1 @@
+print("my name is david sugaba and am from nigeria and edo state")
