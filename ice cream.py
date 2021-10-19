@@ -15,7 +15,11 @@ num_scoops_chocolate = 3
 def get_price():
     # You need to change the following line
     price = 0
+    price = float(price_cone) \
+            + float((price_per_scoop_vanilla * num_scoops_vanilla)) \
+            +float( (price_per_scoop_chocolate * num_scoops_chocolate))
 
     # You don't need to change the following line
     return price
 
+print(float(get_price()))
