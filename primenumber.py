@@ -8,4 +8,4 @@ def test_prime(n):
             if(n % x==0):
                 return False
         return True
-print(test_prime(9))
+print(test_prime(2))
